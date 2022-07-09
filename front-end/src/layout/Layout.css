@@ -1,0 +1,61 @@
+html,body{
+  height: 100%;
+  background-image:url('../images/pic.jpg') ;
+  background-position: center;
+  background-size: 100%;
+}
+.side-bar {
+  background-color: #393a44;
+  min-width: 200px;
+  height: 100%;
+}
+
+h1, h2 {
+  color: white;
+}
+
+form label {
+  background-color: rgba(47, 79, 79, 0.5);
+}
+
+.testing button{
+  margin-right: 10px;
+}
+
+.overscroll {
+  overflow: scroll; 
+}
+
+label {
+  color: white;
+  font-size: 28px;
+  -webkit-text-stroke: 0.5px grey;
+}
+
+table {
+  margin-top: 20px;
+  font-family: 'Calibri';
+  background-color: beige;
+  /* display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; */
+}
+
+.center {
+  text-align: center;
+}
+
+@media all and (min-width: 992px ){
+
+  .side-bar{
+    min-height: 100vh;
+  }
+
+  .overscroll {
+    overflow: hidden; 
+  }
+
+  .justify-center {
+    justify-content: center;
+  }
+}
